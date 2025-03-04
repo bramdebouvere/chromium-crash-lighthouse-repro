@@ -1,0 +1,19 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/typescript-node
+{
+    "name": "pck-peacock",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "containerEnv": {
+    },
+    "features": {
+        "ghcr.io/snebjorn/devcontainer-feature/chromium:latest": {}
+    },
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    "forwardPorts": [
+        8080
+    ],
+    // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+    "remoteUser": "node"
+}
