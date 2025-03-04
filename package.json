@@ -1,0 +1,15 @@
+{
+  "name": "chromium-crash-lighthouse-repro",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node lighthouse.mjs"
+  },
+  "private": false,
+  "dependencies": {
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "lighthouse": "^12.3.0",
+    "puppeteer": "^24.2.1"
+  }
+}
